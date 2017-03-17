@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1682E61E6439A500D25E6F /* editcountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1682E51E6439A500D25E6F /* editcountViewController.m */; };
+		8A173D181E65792F00A7001F /* CountdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A173D171E65792F00A7001F /* CountdownCell.m */; };
+		8A1C9D8D1E5FDE0D00480981 /* Countdown+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C9D8A1E5FDE0D00480981 /* Countdown+CoreDataClass.m */; };
+		8A1C9D8E1E5FDE0D00480981 /* Countdown+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C9D8C1E5FDE0D00480981 /* Countdown+CoreDataProperties.m */; };
+		8A1C9D991E5FE22400480981 /* Todaytd+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C9D961E5FE22400480981 /* Todaytd+CoreDataClass.m */; };
+		8A1C9D9A1E5FE22400480981 /* Todaytd+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C9D981E5FE22400480981 /* Todaytd+CoreDataProperties.m */; };
+		8A2058961E5F0C2A009029ED /* aboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2058951E5F0C2A009029ED /* aboutUsViewController.m */; };
+		8A2058991E5F0C3D009029ED /* versionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2058981E5F0C3D009029ED /* versionViewController.m */; };
+		8A20589C1E5F0C54009029ED /* feedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20589B1E5F0C54009029ED /* feedbackViewController.m */; };
+		8A20589F1E5F0C60009029ED /* alarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A20589E1E5F0C60009029ED /* alarmViewController.m */; };
 		8A31A8921E5B318F00C11DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8911E5B318F00C11DB9 /* main.m */; };
 		8A31A8951E5B318F00C11DB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8941E5B318F00C11DB9 /* AppDelegate.m */; };
-		8A31A8981E5B318F00C11DB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8971E5B318F00C11DB9 /* ViewController.m */; };
 		8A31A89B1E5B318F00C11DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A31A8991E5B318F00C11DB9 /* Main.storyboard */; };
-		8A31A89E1E5B318F00C11DB9 /* ___2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A89C1E5B318F00C11DB9 /* ___2.xcdatamodeld */; };
+		8A31A89E1E5B318F00C11DB9 /* saveData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A89C1E5B318F00C11DB9 /* saveData.xcdatamodeld */; };
 		8A31A8A01E5B318F00C11DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A31A89F1E5B318F00C11DB9 /* Assets.xcassets */; };
 		8A31A8A31E5B318F00C11DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A31A8A11E5B318F00C11DB9 /* LaunchScreen.storyboard */; };
-		8A31A8AE1E5B318F00C11DB9 /* ___2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8AD1E5B318F00C11DB9 /* ___2Tests.m */; };
-		8A31A8B91E5B318F00C11DB9 /* ___2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8B81E5B318F00C11DB9 /* ___2UITests.m */; };
+		8A31A8C91E5B31BD00C11DB9 /* todaytodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8C81E5B31BD00C11DB9 /* todaytodoViewController.m */; };
+		8A31A8D21E5B321F00C11DB9 /* historyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8D11E5B321F00C11DB9 /* historyViewController.m */; };
+		8A31A8D51E5B322D00C11DB9 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8D41E5B322D00C11DB9 /* settingViewController.m */; };
+		8A31A8D81E5B339A00C11DB9 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8D71E5B339A00C11DB9 /* tabBarViewController.m */; };
+		8A31A8DB1E5B378900C11DB9 /* countdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8DA1E5B378900C11DB9 /* countdownViewController.m */; };
+		8A31A8DE1E5B429500C11DB9 /* addtodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8DD1E5B429500C11DB9 /* addtodoViewController.m */; };
+		8A31A8E11E5B42C600C11DB9 /* addcountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A31A8E01E5B42C600C11DB9 /* addcountdownViewController.m */; };
+		8ACC8A9F1E5F39BE0092A918 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACC8A9E1E5F39BE0092A918 /* CoreData.framework */; };
+		8ACC8AA21E5F3E4D0092A918 /* editTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC8AA11E5F3E4D0092A918 /* editTodayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +52,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1682E21E64393E00D25E6F /* 计划狗2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计划狗2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1682E31E64393E00D25E6F /* 计划狗2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计划狗2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1682E41E6439A500D25E6F /* editcountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editcountViewController.h; sourceTree = "<group>"; };
+		8A1682E51E6439A500D25E6F /* editcountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editcountViewController.m; sourceTree = "<group>"; };
+		8A173D161E65792F00A7001F /* CountdownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownCell.h; sourceTree = "<group>"; };
+		8A173D171E65792F00A7001F /* CountdownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownCell.m; sourceTree = "<group>"; };
+		8A1C9D891E5FDE0D00480981 /* Countdown+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Countdown+CoreDataClass.h"; path = "../Countdown+CoreDataClass.h"; sourceTree = "<group>"; };
+		8A1C9D8A1E5FDE0D00480981 /* Countdown+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Countdown+CoreDataClass.m"; path = "../Countdown+CoreDataClass.m"; sourceTree = "<group>"; };
+		8A1C9D8B1E5FDE0D00480981 /* Countdown+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Countdown+CoreDataProperties.h"; path = "../Countdown+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8A1C9D8C1E5FDE0D00480981 /* Countdown+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Countdown+CoreDataProperties.m"; path = "../Countdown+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8A1C9D951E5FE22400480981 /* Todaytd+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Todaytd+CoreDataClass.h"; path = "../Todaytd+CoreDataClass.h"; sourceTree = "<group>"; };
+		8A1C9D961E5FE22400480981 /* Todaytd+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Todaytd+CoreDataClass.m"; path = "../Todaytd+CoreDataClass.m"; sourceTree = "<group>"; };
+		8A1C9D971E5FE22400480981 /* Todaytd+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Todaytd+CoreDataProperties.h"; path = "../Todaytd+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8A1C9D981E5FE22400480981 /* Todaytd+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Todaytd+CoreDataProperties.m"; path = "../Todaytd+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8A2058941E5F0C2A009029ED /* aboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutUsViewController.h; sourceTree = "<group>"; };
+		8A2058951E5F0C2A009029ED /* aboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutUsViewController.m; sourceTree = "<group>"; };
+		8A2058971E5F0C3D009029ED /* versionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = versionViewController.h; sourceTree = "<group>"; };
+		8A2058981E5F0C3D009029ED /* versionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = versionViewController.m; sourceTree = "<group>"; };
+		8A20589A1E5F0C54009029ED /* feedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedbackViewController.h; sourceTree = "<group>"; };
+		8A20589B1E5F0C54009029ED /* feedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedbackViewController.m; sourceTree = "<group>"; };
+		8A20589D1E5F0C60009029ED /* alarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alarmViewController.h; sourceTree = "<group>"; };
+		8A20589E1E5F0C60009029ED /* alarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alarmViewController.m; sourceTree = "<group>"; };
 		8A31A88D1E5B318F00C11DB9 /* 计划狗2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计划狗2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A31A8911E5B318F00C11DB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A31A8931E5B318F00C11DB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A31A8941E5B318F00C11DB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A31A8961E5B318F00C11DB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A31A8971E5B318F00C11DB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A31A89A1E5B318F00C11DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A31A89D1E5B318F00C11DB9 /* ___2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___2.xcdatamodel"; sourceTree = "<group>"; };
+		8A31A89D1E5B318F00C11DB9 /* saveData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = saveData.xcdatamodel; sourceTree = "<group>"; };
 		8A31A89F1E5B318F00C11DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A31A8A21E5B318F00C11DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A31A8A41E5B318F00C11DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A31A8A91E5B318F00C11DB9 /* 计划狗2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计划狗2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A31A8AD1E5B318F00C11DB9 /* ___2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___2Tests.m"; sourceTree = "<group>"; };
-		8A31A8AF1E5B318F00C11DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A31A8B41E5B318F00C11DB9 /* 计划狗2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计划狗2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A31A8B81E5B318F00C11DB9 /* ___2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___2UITests.m"; sourceTree = "<group>"; };
-		8A31A8BA1E5B318F00C11DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A31A8C71E5B31BD00C11DB9 /* todaytodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todaytodoViewController.h; sourceTree = "<group>"; };
+		8A31A8C81E5B31BD00C11DB9 /* todaytodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todaytodoViewController.m; sourceTree = "<group>"; };
+		8A31A8D01E5B321F00C11DB9 /* historyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = historyViewController.h; sourceTree = "<group>"; };
+		8A31A8D11E5B321F00C11DB9 /* historyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = historyViewController.m; sourceTree = "<group>"; };
+		8A31A8D31E5B322D00C11DB9 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		8A31A8D41E5B322D00C11DB9 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		8A31A8D61E5B339A00C11DB9 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
+		8A31A8D71E5B339A00C11DB9 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
+		8A31A8D91E5B378900C11DB9 /* countdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countdownViewController.h; sourceTree = "<group>"; };
+		8A31A8DA1E5B378900C11DB9 /* countdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countdownViewController.m; sourceTree = "<group>"; };
+		8A31A8DC1E5B429500C11DB9 /* addtodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addtodoViewController.h; sourceTree = "<group>"; };
+		8A31A8DD1E5B429500C11DB9 /* addtodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addtodoViewController.m; sourceTree = "<group>"; };
+		8A31A8DF1E5B42C600C11DB9 /* addcountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addcountdownViewController.h; sourceTree = "<group>"; };
+		8A31A8E01E5B42C600C11DB9 /* addcountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addcountdownViewController.m; sourceTree = "<group>"; };
+		8ACC8A9E1E5F39BE0092A918 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8ACC8AA01E5F3E4D0092A918 /* editTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editTodayViewController.h; sourceTree = "<group>"; };
+		8ACC8AA11E5F3E4D0092A918 /* editTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editTodayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACC8A9F1E5F39BE0092A918 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				8A31A88F1E5B318F00C11DB9 /* 计划狗2 */,
-				8A31A8AC1E5B318F00C11DB9 /* 计划狗2Tests */,
-				8A31A8B71E5B318F00C11DB9 /* 计划狗2UITests */,
-				8A31A88E1E5B318F00C11DB9 /* Products */,
+				8ACC8A9D1E5F39BE0092A918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				8A31A88D1E5B318F00C11DB9 /* 计划狗2.app */,
-				8A31A8A91E5B318F00C11DB9 /* 计划狗2Tests.xctest */,
-				8A31A8B41E5B318F00C11DB9 /* 计划狗2UITests.xctest */,
+				8A1682E21E64393E00D25E6F /* 计划狗2Tests.xctest */,
+				8A1682E31E64393E00D25E6F /* 计划狗2UITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8A31A88F1E5B318F00C11DB9 /* 计划狗2 */ = {
@@ -105,13 +152,20 @@
 			children = (
 				8A31A8931E5B318F00C11DB9 /* AppDelegate.h */,
 				8A31A8941E5B318F00C11DB9 /* AppDelegate.m */,
-				8A31A8961E5B318F00C11DB9 /* ViewController.h */,
-				8A31A8971E5B318F00C11DB9 /* ViewController.m */,
 				8A31A8991E5B318F00C11DB9 /* Main.storyboard */,
 				8A31A89F1E5B318F00C11DB9 /* Assets.xcassets */,
 				8A31A8A11E5B318F00C11DB9 /* LaunchScreen.storyboard */,
 				8A31A8A41E5B318F00C11DB9 /* Info.plist */,
-				8A31A89C1E5B318F00C11DB9 /* ___2.xcdatamodeld */,
+				8A31A89C1E5B318F00C11DB9 /* saveData.xcdatamodeld */,
+				8A1C9D951E5FE22400480981 /* Todaytd+CoreDataClass.h */,
+				8A1C9D961E5FE22400480981 /* Todaytd+CoreDataClass.m */,
+				8A1C9D971E5FE22400480981 /* Todaytd+CoreDataProperties.h */,
+				8A1C9D981E5FE22400480981 /* Todaytd+CoreDataProperties.m */,
+				8A1C9D891E5FDE0D00480981 /* Countdown+CoreDataClass.h */,
+				8A1C9D8A1E5FDE0D00480981 /* Countdown+CoreDataClass.m */,
+				8A1C9D8B1E5FDE0D00480981 /* Countdown+CoreDataProperties.h */,
+				8A1C9D8C1E5FDE0D00480981 /* Countdown+CoreDataProperties.m */,
+				8A31A88E1E5B318F00C11DB9 /* Products */,
 				8A31A8901E5B318F00C11DB9 /* Supporting Files */,
 			);
 			path = "计划狗2";
@@ -120,27 +174,77 @@
 		8A31A8901E5B318F00C11DB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A31A8D61E5B339A00C11DB9 /* tabBarViewController.h */,
+				8A31A8D71E5B339A00C11DB9 /* tabBarViewController.m */,
+				8A31A8C61E5B319F00C11DB9 /* 今日计划 */,
+				8A31A8CA1E5B31C800C11DB9 /* 倒计时 */,
+				8A31A8CC1E5B31E700C11DB9 /* 历史上的今天 */,
+				8A31A8CB1E5B31E400C11DB9 /* 设置 */,
 				8A31A8911E5B318F00C11DB9 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8A31A8AC1E5B318F00C11DB9 /* 计划狗2Tests */ = {
+		8A31A8C61E5B319F00C11DB9 /* 今日计划 */ = {
 			isa = PBXGroup;
 			children = (
-				8A31A8AD1E5B318F00C11DB9 /* ___2Tests.m */,
-				8A31A8AF1E5B318F00C11DB9 /* Info.plist */,
+				8A31A8C71E5B31BD00C11DB9 /* todaytodoViewController.h */,
+				8A31A8C81E5B31BD00C11DB9 /* todaytodoViewController.m */,
+				8A31A8DC1E5B429500C11DB9 /* addtodoViewController.h */,
+				8A31A8DD1E5B429500C11DB9 /* addtodoViewController.m */,
+				8ACC8AA01E5F3E4D0092A918 /* editTodayViewController.h */,
+				8ACC8AA11E5F3E4D0092A918 /* editTodayViewController.m */,
 			);
-			path = "计划狗2Tests";
+			name = "今日计划";
 			sourceTree = "<group>";
 		};
-		8A31A8B71E5B318F00C11DB9 /* 计划狗2UITests */ = {
+		8A31A8CA1E5B31C800C11DB9 /* 倒计时 */ = {
 			isa = PBXGroup;
 			children = (
-				8A31A8B81E5B318F00C11DB9 /* ___2UITests.m */,
-				8A31A8BA1E5B318F00C11DB9 /* Info.plist */,
+				8A31A8D91E5B378900C11DB9 /* countdownViewController.h */,
+				8A31A8DA1E5B378900C11DB9 /* countdownViewController.m */,
+				8A31A8DF1E5B42C600C11DB9 /* addcountdownViewController.h */,
+				8A31A8E01E5B42C600C11DB9 /* addcountdownViewController.m */,
+				8A1682E41E6439A500D25E6F /* editcountViewController.h */,
+				8A1682E51E6439A500D25E6F /* editcountViewController.m */,
+				8A173D161E65792F00A7001F /* CountdownCell.h */,
+				8A173D171E65792F00A7001F /* CountdownCell.m */,
 			);
-			path = "计划狗2UITests";
+			name = "倒计时";
+			sourceTree = "<group>";
+		};
+		8A31A8CB1E5B31E400C11DB9 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				8A31A8D31E5B322D00C11DB9 /* settingViewController.h */,
+				8A31A8D41E5B322D00C11DB9 /* settingViewController.m */,
+				8A20589D1E5F0C60009029ED /* alarmViewController.h */,
+				8A20589E1E5F0C60009029ED /* alarmViewController.m */,
+				8A20589A1E5F0C54009029ED /* feedbackViewController.h */,
+				8A20589B1E5F0C54009029ED /* feedbackViewController.m */,
+				8A2058971E5F0C3D009029ED /* versionViewController.h */,
+				8A2058981E5F0C3D009029ED /* versionViewController.m */,
+				8A2058941E5F0C2A009029ED /* aboutUsViewController.h */,
+				8A2058951E5F0C2A009029ED /* aboutUsViewController.m */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		8A31A8CC1E5B31E700C11DB9 /* 历史上的今天 */ = {
+			isa = PBXGroup;
+			children = (
+				8A31A8D01E5B321F00C11DB9 /* historyViewController.h */,
+				8A31A8D11E5B321F00C11DB9 /* historyViewController.m */,
+			);
+			name = "历史上的今天";
+			sourceTree = "<group>";
+		};
+		8ACC8A9D1E5F39BE0092A918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC8A9E1E5F39BE0092A918 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +282,7 @@
 			);
 			name = "计划狗2Tests";
 			productName = "计划狗2Tests";
-			productReference = 8A31A8A91E5B318F00C11DB9 /* 计划狗2Tests.xctest */;
+			productReference = 8A1682E21E64393E00D25E6F /* 计划狗2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8A31A8B31E5B318F00C11DB9 /* 计划狗2UITests */ = {
@@ -196,7 +300,7 @@
 			);
 			name = "计划狗2UITests";
 			productName = "计划狗2UITests";
-			productReference = 8A31A8B41E5B318F00C11DB9 /* 计划狗2UITests.xctest */;
+			productReference = 8A1682E31E64393E00D25E6F /* 计划狗2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +331,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A31A8881E5B318F00C11DB9 /* Build configuration list for PBXProject "计划狗2" */;
+			buildConfigurationList = 8A31A8881E5B318F00C11DB9 /* Build configuration list for PBXProject "计划狗" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -279,10 +383,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A31A89E1E5B318F00C11DB9 /* ___2.xcdatamodeld in Sources */,
-				8A31A8981E5B318F00C11DB9 /* ViewController.m in Sources */,
+				8A31A8C91E5B31BD00C11DB9 /* todaytodoViewController.m in Sources */,
+				8A31A89E1E5B318F00C11DB9 /* saveData.xcdatamodeld in Sources */,
+				8A31A8D81E5B339A00C11DB9 /* tabBarViewController.m in Sources */,
+				8A1C9D991E5FE22400480981 /* Todaytd+CoreDataClass.m in Sources */,
+				8A1C9D9A1E5FE22400480981 /* Todaytd+CoreDataProperties.m in Sources */,
+				8A20589C1E5F0C54009029ED /* feedbackViewController.m in Sources */,
+				8A2058961E5F0C2A009029ED /* aboutUsViewController.m in Sources */,
+				8A31A8DE1E5B429500C11DB9 /* addtodoViewController.m in Sources */,
+				8A173D181E65792F00A7001F /* CountdownCell.m in Sources */,
+				8A31A8D21E5B321F00C11DB9 /* historyViewController.m in Sources */,
 				8A31A8951E5B318F00C11DB9 /* AppDelegate.m in Sources */,
+				8A1682E61E6439A500D25E6F /* editcountViewController.m in Sources */,
+				8ACC8AA21E5F3E4D0092A918 /* editTodayViewController.m in Sources */,
+				8A1C9D8D1E5FDE0D00480981 /* Countdown+CoreDataClass.m in Sources */,
+				8A31A8DB1E5B378900C11DB9 /* countdownViewController.m in Sources */,
+				8A31A8E11E5B42C600C11DB9 /* addcountdownViewController.m in Sources */,
+				8A1C9D8E1E5FDE0D00480981 /* Countdown+CoreDataProperties.m in Sources */,
 				8A31A8921E5B318F00C11DB9 /* main.m in Sources */,
+				8A31A8D51E5B322D00C11DB9 /* settingViewController.m in Sources */,
+				8A20589F1E5F0C60009029ED /* alarmViewController.m in Sources */,
+				8A2058991E5F0C3D009029ED /* versionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +411,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A31A8AE1E5B318F00C11DB9 /* ___2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +418,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A31A8B91E5B318F00C11DB9 /* ___2UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +621,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A31A8881E5B318F00C11DB9 /* Build configuration list for PBXProject "计划狗2" */ = {
+		8A31A8881E5B318F00C11DB9 /* Build configuration list for PBXProject "计划狗" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A31A8BB1E5B318F00C11DB9 /* Debug */,
@@ -518,6 +637,7 @@
 				8A31A8BF1E5B318F00C11DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A31A8C01E5B318F00C11DB9 /* Build configuration list for PBXNativeTarget "计划狗2Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +646,7 @@
 				8A31A8C21E5B318F00C11DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A31A8C31E5B318F00C11DB9 /* Build configuration list for PBXNativeTarget "计划狗2UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,17 +655,18 @@
 				8A31A8C51E5B318F00C11DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8A31A89C1E5B318F00C11DB9 /* ___2.xcdatamodeld */ = {
+		8A31A89C1E5B318F00C11DB9 /* saveData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8A31A89D1E5B318F00C11DB9 /* ___2.xcdatamodel */,
+				8A31A89D1E5B318F00C11DB9 /* saveData.xcdatamodel */,
 			);
-			currentVersion = 8A31A89D1E5B318F00C11DB9 /* ___2.xcdatamodel */;
-			path = "___2.xcdatamodeld";
+			currentVersion = 8A31A89D1E5B318F00C11DB9 /* saveData.xcdatamodel */;
+			path = saveData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "todaytodoViewController.h"
+#import "countdownViewController.h"
+#import "historyViewController.h"
+#import "settingViewController.h"
+#import "tabBarViewController.h"
+#import <UserNotifications/UserNotifications.h>
 
 @interface AppDelegate ()
 
@@ -17,8 +23,53 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame: [UIScreen mainScreen].bounds];
+    tabBarViewController *tab = [[tabBarViewController alloc]init];
+    
+    //将tabbar和导航栏结合 tabbar上放导航栏
+    todaytodoViewController *today =[[todaytodoViewController alloc]init];
+    today.navigationItem.title = @"今日计划";
+    today.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"今日计划" image:[UIImage imageNamed:@"今日计划.png"] tag:0];
+    UINavigationController *todaynav = [[UINavigationController alloc]initWithRootViewController:today];
+    [tab addChildViewController:todaynav];
+    
+    countdownViewController *countdown = [[countdownViewController alloc]init];
+    countdown.title = @"倒计时";
+    countdown.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"倒计时" image:[UIImage imageNamed:@"倒计时.png"] tag:1];
+    UINavigationController *countdownnav = [[UINavigationController alloc]initWithRootViewController:countdown];
+    [tab addChildViewController:countdownnav];
+    
+    historyViewController *history = [[historyViewController alloc]init];
+
+    history.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"历史上的今天" image:[UIImage imageNamed:@"历史上的今天.png"] tag:2];
+    UINavigationController *historynav = [[UINavigationController alloc]initWithRootViewController:history];
+    [tab addChildViewController:historynav];
+    
+    settingViewController *setting = [[settingViewController alloc]init];
+    setting.title = @"设置";
+    setting.tabBarItem= [[UITabBarItem alloc]initWithTitle:@"设置" image:[UIImage imageNamed:@"设置.png"] tag:3];
+    UINavigationController *settingnav =[[UINavigationController alloc]initWithRootViewController:setting];
+    [tab addChildViewController:settingnav];
+    
+    self.window.rootViewController = tab;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    //注册推送
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center requestAuthorizationWithOptions:UNAuthorizationOptionBadge|UNAuthorizationOptionSound |UNAuthorizationOptionAlert completionHandler:^(BOOL granted,NSError *_Nullable error){
+        if (!error) {
+            NSLog(@"request authorization succeeded!");
+        }
+    }];
+    
+    
+    [NSThread sleepForTimeInterval:1];
+    
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
