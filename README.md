@@ -5,6 +5,6 @@
 
 The first iOS APP made by myself.
 
-Core Data of Xcode 8 (new grammar)<br/>
-UserNotification<br/>
-UITableView
+* Core Data of Xcode 8 (new grammar)<br/>
+* UserNotification<br/>
+* UITableView
