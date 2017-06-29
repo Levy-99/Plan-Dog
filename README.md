@@ -1,7 +1,7 @@
 # Plan-Dog
-计划狗 Plan Dog
+计划狗 Plan Dog 🐶
 
-![image](https://github.com/Loyv99/Plan-Dog/raw/master/readme_pic/ICON.png)
+![Plan Dog](https://github.com/Loyv99/Plan-Dog/raw/master/计划狗2/Assets.xcassets/AppIcon.appiconset/Icon-Small-40@3x.png)
 
 The first iOS APP made by myself.
 
